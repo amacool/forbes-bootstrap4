@@ -1,0 +1,123 @@
+
+.blog-detail-body .container {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.blog-detail-left {
+	width: 67%;
+    padding-right: 32px;
+    border-right: solid 1px #333;
+    padding-bottom: 140px;
+}
+.blog-detail-left .section-1 {
+	margin-top: 54px;
+	margin-bottom: 39px;
+}
+.blog-detail-left h1 {
+	font-size: 30px;
+    margin-bottom: 6px;
+}
+.blog-detail-left h2 {
+	font-size: 26px;
+    margin-bottom: 3px;
+    line-height: 26px;
+}
+.blog-detail-left .section-1 p {
+	font-size: 15px;
+    margin-bottom: 22px;
+}
+.blog-detail-left .section-1 img {
+	width: 100%;
+}
+.blog-detail-left .attach {
+    margin-bottom: 4px;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+}
+.blog-detail-left .podcast {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #3b5a90;
+}
+.blog-detail-left .description {
+	margin-bottom: 47px;
+    letter-spacing: 0.4px;
+}
+.blog-detail-left ul {
+    padding-left: 15px;
+    line-height: 27px;
+}
+.section-3 {
+	margin-bottom: 117px;
+}
+.section-4 h2 {
+	margin-bottom: 8px;
+    font-size: 22px;
+}
+.section-4 p {
+    letter-spacing: 0.5px;
+}
+.section-4 .form-group {
+	margin-bottom: 19px;
+}
+.section-4 textarea {
+    height: 169px;
+}
+.section-4 input {
+	height: 48px;
+}
+.section-4 .btn-submit-comment {
+	float: right;
+    padding: 12px 17px!important;
+    font-size: 16px;
+    background: #f7de42;
+    border-width: 10px!important;
+    border-color: #f7de42;
+    border-radius: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    transition: 0.5s all;
+    color: #333;
+    cursor: pointer;
+}
+.btn-submit-comment:hover {
+	background-color: #efc940;
+}
+
+.blog-detail-right {
+    margin-top: 58px;
+    width: 30%;
+}
+.blog-detail-right img {
+	width: 100%;
+}
+
+
+@media (max-width: 980px) {
+	.blog-detail-left {
+		width: 100%;
+		padding: 0;
+		border: none;
+	}
+	.blog-detail-right {
+		padding: 0;
+	    margin-bottom: 50px;
+	    width: 100%;
+	}
+	.container {
+		width: 80%;
+	}
+	.section-4 .btn-submit-comment {
+		float: left;
+	}
+	.blog-detail-left h2 {
+	    font-size: 20px;
+	    margin-bottom: 3px;
+	    line-height: 20px;
+	}
+}

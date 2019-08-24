@@ -1,0 +1,371 @@
+
+/* header */
+.custom-header {
+	background-image: url('../img/header.jpg') !important;
+	padding: 54px 0;
+	text-align: center;
+	background-size: cover;
+    background-position: center;
+}
+.custom-header .container {
+	padding: 27px 0;
+}
+.custom-header h1 {
+	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.7em;
+    max-width: 800px;
+    margin: 60px auto !important;
+}
+.btn-find-your-council {
+	padding: 18px 26px;
+    font-size: 16px;
+    background: #f7de42;
+    border-width: 10px!important;
+    border-color: #f7de42;
+    border-radius: 6px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    transition: 0.5s all;
+    color: #333 !important;
+    cursor: pointer;
+}
+.custom-header .btn-find-your-council:hover {
+	background-color: #efc940;
+}
+.custom-header p {
+	color: white;
+    margin-top: 19px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+.custom-header a {
+	cursor: pointer;
+	color: white;
+}
+.request-invitation-form {
+	margin: 0 auto;
+	padding: 0 40px;
+}
+.request-invitation-form label {
+	color: black;
+}
+.request-invitation-form input {
+	text-align: left;
+}
+.request-invitation-form .form-control:focus {
+	border-color: #fff2a1;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #fff2a1;
+}
+.homepage-heading-section {
+    width: 80%;
+    margin: 80px auto 60px;
+    text-align: center;
+}
+.homepage-heading-section h2 {
+	max-width: 760px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 34px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    color: #333333;
+    line-height: 34px;
+}
+.modal-title {
+	font-weight: 700;
+}
+
+.homepage-body-row-section {
+	display: flex;
+}
+.homepage-body-row-section > div {
+	width: 50%;
+}
+.homepage-body-row-section .text-container {
+	display: flex;
+    align-items: center;
+}
+.homepage-body-row-section div.justify-content-start {
+	background-color: #f0f0f0;
+}
+.homepage-body-row-section .text-container-inner {
+    padding: 60px;
+    max-width: 600px;
+}
+.homepage-body-row-section .text-container-inner h3 {
+	font-weight: 600;
+	letter-spacing: 0.3px;
+    margin-top: 17px;
+}
+.homepage-body-row-section .text-container-inner p {
+	letter-spacing: 0.4px;
+}
+.homepage-body-row-section .img-container img {
+	height: 550px;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+
+.forbes-message-section {
+	padding-top: 98px;
+}
+.forbes-message-section > div {
+    padding: 0;
+}
+.forbes-message-section > div:first-child {
+	padding-top: 20px;
+}
+.forbes-message-section h3 {
+    font-size: 38px;
+    font-weight: normal;
+    line-height: 38px;
+    font-weight: 300;
+}
+.forbes-message-section p {
+	font-size: 17px;
+}
+.forbes-message-section .message-span {
+    background: #787878;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+    padding: 1px 30px 1px;
+    text-transform: uppercase;
+}
+
+.find-council-section {
+	background-color: #f0f0f0;
+	margin-bottom: 81px;
+}
+.find-council-section .container {
+	padding-bottom: 81px;
+}
+.find-council-section .find-council-heading {
+    font-size: 38px;
+    padding: 82px 0 98px;
+    font-weight: 300;
+    text-align: center;
+}
+.find-council-section .find-council-heading-last {
+	padding-top: 135px;
+	margin-bottom: 9px;
+}
+.find-council-section .find-council-body {
+	display: flex;
+    justify-content: space-between;
+	margin: 0 0 38px;
+}
+.find-council-section .find-council-body .card {
+	width: 31%;
+    border: none !important;
+}
+.find-council-section .find-council-body .card .card-body {
+	padding: 2rem 1.25rem;
+}
+.find-council-section .find-council-body .card .card-title {
+	display: flex;
+    margin-bottom: 61px;
+    justify-content: center;
+}
+.find-council-section .find-council-body .card .card-title > span {
+    padding-right: 15px;
+    border-right: solid 2px #333;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: serif;
+    letter-spacing: -1px;
+}
+.find-council-section .find-council-body .card .card-title > div {
+    padding-left: 16px;
+    text-align: left;
+}
+.find-council-section .find-council-body .card .card-title div:last-child p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+}
+.find-council-section .find-council-body .card .card-body {
+	padding: 32px 1.25rem 28px;
+}
+.find-council-section .find-council-body .card .card-body .card-text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 54px;
+}
+.find-council-section .find-council-body .card .card-body p a {
+	text-decoration: none;
+}
+.find-council-section .find-council-body .card .card-body p:last-child {
+	margin: 0;
+}
+
+.home-story-section {
+	margin-bottom: 66px;
+}
+.home-story-section h3 {
+	font-size: 22px;
+    max-width: 556px;
+    margin: 0 auto 23px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 23px;
+}
+.home-story-section h2 {
+	margin: 0 auto 65px;
+    max-width: 600px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 37px;
+}
+.home-story-body {
+	letter-spacing: 0.4px;
+}
+.home-story-body .col {
+    max-width: 48.6%;
+}
+.home-story-body a {
+	color: #3b5a90;
+	text-decoration: none;
+}
+
+.home-home-section {
+	text-align: center;
+    padding: 150px 0 50px;
+    background-color: #f0f0f0;
+}
+.home-home-section h3 {
+	margin-bottom: 30px;
+}
+.home-home-section .items-container {
+	max-width: 450px;
+	margin: 0 auto 40px;
+}
+.home-home-section .items-container .custom-control {
+	text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #dedede;
+}
+.btn-apply-invitation {
+	display: inline-block;
+}
+.btn-send-email {
+	background-color: #f7de42;
+	color: black;
+	border: solid 1px #f7de42;
+}
+.btn-send-email:hover {
+	background-color: #e8d13b;
+	color: black;
+	border: solid 1px #e8d13b;
+}
+.btn-send-email:active {
+	background-color: #e8d13b !important;
+	color: black !important;
+	border: solid 1px #e8d13b !important;
+	outline: none;
+}
+.btn-send-email:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.2rem rgb(255, 245, 183) !important;
+}
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: #ffc107 !important;
+	border-color: #ffc107 !important;
+}
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem #f7de42;
+}
+
+@media (max-width: 980px) {
+	.custom-header h1 {
+		font-size: 30px;
+	}
+
+	.homepage-heading-section h2 {
+		max-width: 400px;
+	}
+
+	.homepage-body-row-section {
+		display: grid !important;
+	}
+	.homepage-body-row-section .text-container {
+		width: 100%;
+		order: 1;
+	}
+	.homepage-body-row-section .text-container .text-container-inner {
+		max-width: unset;
+		width: 100%;
+	    padding: 30px 50px;
+	}
+	.homepage-body-row-section .img-container {
+		width: 100%;
+		max-width: unset;
+	}
+
+	.forbes-message-section {
+		display: block !important;
+		padding-top: 50px;
+	}
+	.forbes-message-section > div {
+		width: 100%;
+	}
+	.forbes-message-section img {
+		width: 100%;
+	}
+	.forbes-message-section h3 {
+		font-size: 36px;
+	}
+
+	.find-council-section .find-council-heading {
+		padding: 50px 0;
+	}
+	.find-council-section .find-council-body {
+		display: block !important;
+	}
+	.find-council-section .find-council-body .card {
+		width: 100% !important;
+		margin-bottom: 38px;
+	}
+
+	.home-story-body {
+		display: block !important;
+	}
+	.home-story-body .col {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.custom-header h1 {
+		font-size: 24px;
+	}
+	.request-invitation-form {
+		padding: 0;
+	}
+
+	.homepage-heading-section {
+		width: 100% !important;
+	}
+
+	.homepage-body-row-section .text-container .text-container-inner {
+		padding: 30px;
+	}
+	.forbes-message-section h3 {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 450px) {
+
+}
